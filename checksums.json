@@ -3,8 +3,8 @@
   "README.md": "5f8e5dd3cc8828b65f505755cc3b3305",
   "manifests/init.pp": "fcf0a760e01cb2e32cb5cc0566f9bfd4",
   "manifests/new_config_file.pp": "0bd5a4c42057a85fd491b5380e141206",
-  "manifests/params.pp": "58e0947c9260719072daff6d1868e85c",
-  "metadata.json": "b43745e973688e2db0e6a29a12934f46",
+  "manifests/params.pp": "b64470cd35aa03da28819df45234b338",
+  "metadata.json": "e827ece5dd729fe35d68b869923f918a",
   "templates/configfile.erb": "136ad70dbc924ab97ead7db3ad55ca03",
   "templates/new_config_file.erb": "923cfb8413daa8e1d4f783f74a2bf8d6"
 }
