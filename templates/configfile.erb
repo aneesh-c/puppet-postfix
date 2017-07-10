@@ -831,3 +831,9 @@ virtual_transport = <%= @virtual_transport %>
 <% if @dovecot_destination_recipient_limit -%>
 dovecot_destination_recipient_limit = <%= @dovecot_destination_recipient_limit %>
 <% end -%>
+
+# See http://www.postfix.org/COMPATIBILITY_README.html -- default to 2 on
+# fresh installs.
+<% if @compatibility_level -%>
+compatibility_level = <%= @compatibility_level %>
+<% end -%>

@@ -72,10 +72,11 @@ class postfix (
   $proxy_read_maps                     = undef,
   $virtual_transport                   = undef,
   $dovecot_destination_recipient_limit = undef,
+  $compatibility_level                 = undef,
 ) inherits postfix::params {
   package { $package_name: ensure => installed }
   file { '/etc/postfix/main.cf':
-    require => package[$package_name],
+    require => Package[$package_name],
     backup  => '.backup',
     content => template($template),
   }

@@ -1,12 +1,16 @@
 {
   "name": "aneesh-postfix",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "author": "aneesh",
   "summary": "Puppet module for postfix",
   "license": "Apache-2.0",
   "source": "https://github.com/aneesh-c/puppet-postfix",
   "project_page": "https://github.com/aneesh-c/puppet-postfix",
   "issues_url": "https://github.com/aneesh-c/puppet-postfix/issues",
+  "dependencies": [
+  
+  ],
+  "data_provider": null,
   "tags": [
     "postfix",
     "smtp",
@@ -33,7 +37,8 @@
       "operatingsystemrelease": [
         "12.04",
         "14.04",
-        "16.04"
+        "16.04",
+        "17.04"
       ]
     },
     {
@@ -43,8 +48,5 @@
         "8"
       ]
     }
-  ],
-  "dependencies": [
-  
   ]
 }
