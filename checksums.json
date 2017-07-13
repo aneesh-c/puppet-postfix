@@ -4,7 +4,7 @@
   "manifests/init.pp": "4b81b783602e03ade66cfb3998eea6c9",
   "manifests/new_config_file.pp": "0bd5a4c42057a85fd491b5380e141206",
   "manifests/params.pp": "b64470cd35aa03da28819df45234b338",
-  "metadata.json": "e72e7513a0176bafc2f86b2a075d7145",
+  "metadata.json": "a5e3c6f15530ddf4a8f4cf73f3cf5b2c",
   "templates/configfile.erb": "1bdb988da918af1d584ba5c37aa3ef45",
   "templates/new_config_file.erb": "923cfb8413daa8e1d4f783f74a2bf8d6"
 }
